@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+body.dark {
+  background-color: #444;
+  color: #fff;
+}
+
+body.dark a {
+  color: #fff;
+}
+
+.wrap {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+  padding: 24px;
+}
+.sorters {
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #CB4226;
+}
+
+h6 {
+  margin-bottom: 0;
+}
+
+.sort.sorted > a, .sorters.sorted > a {
+  opacity: 0.35;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex.column {
+  flex-direction: column;
+}
+
+a {
+  color: #444;
+}
+
+.flex a {
+  display: inline-block;
+  height: 16px;
+  padding: 8px;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  margin-right: 8px;
+}
+
+.flex a:before {
+  content: '';
+  margin-right: 8px;
+  display: inline-block;
+  border-left: 10px solid transparent;
+  height: 100%;
+}
+
+.colorSwitch {
+  background: #444;
+  width: 30px;
+  height: 15px;
+  border-radius: 12.5px;
+  padding: 2px;
+}
+
+.colorSwitch:before {
+  content: '';
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+body.dark .colorSwitch {
+  background: #fff;
+  width: 30px;
+  height: 15px;
+  border-radius: 12.5px;
+}
+
+body.dark .colorSwitch:before {
+  height: 15px;
+  width: 15px;
+  background-color: #444;
+  margin-left: 15px;
+}
+
+a.all:before {
+  border-left-color: cornsilk;
+}
+
+a.words:before {
+  border-left-color: goldenrod;
+}
+
+a.code:before {
+  border-left-color: aquamarine;
+}
+
+a.biz:before {
+  border-left-color: tomato;
+}
+
+a.design:before {
+  border-left-color: wheat;
+}
+
+.sort.sorted > a.sortBy,
+.sorters.sorted > a.sortBy {
+  opacity: 1;
+}
+
+.sorters a {
+  border-bottom: none;
+}

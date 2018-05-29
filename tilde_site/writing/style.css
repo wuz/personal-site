@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai|Lora|Montserrat:700');
+body {
+  font-family: 'Hind Maduai', sans-serif;
+  background: floralwhite;
+  color: #444;
+  margin: 0;
+  padding: 2% 5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  max-width: 55rem;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: Lora;
+  font-size: 3em;
+}
+
+p {
+  max-width: 55rem;
+}
+
+a {
+  display: inline-block;
+  color: #444;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 0.065em solid currentColor;
+}
