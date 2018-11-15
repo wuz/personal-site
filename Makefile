@@ -1,7 +1,7 @@
 all: less blog
 
 less:
-	lessc style/main.less css/style.css
+	npx lessc style/main.less css/style.css
 
 blog:
 	cd blog
@@ -9,7 +9,7 @@ blog:
 	cd ..
 
 serve: all
-	httpster
+	npx httpster
 
 deploy: all
-	rsync -vr * root@wuzzard.com:/var/www/html
+	rsync -vr * wuz_wuzzard@ssh.phx.nearlyfreespeech.net:/home/public

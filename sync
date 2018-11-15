@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -vr * root@wuzzard.com:/var/www/html
+rsync -vr * wuz_wuzzard@ssh.phx.nearlyfreespeech.net:/home/public

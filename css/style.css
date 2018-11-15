@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), local('NotoSans'), url(https://fonts.gstatic.com/s/notosans/v7/o-0IIpQlx3QUlC5A4PNr5TRF.ttf) format('truetype');
+}
 * {
   box-sizing: inherit;
 }
@@ -11,8 +16,8 @@ body {
   font-weight: 400;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to left top, #D7FDE4, #F2DBA7) no-repeat center center;
-  color: #272E31;
+  background: linear-gradient(-225deg, #5C95FF 0%, #F5C3FF 100%) no-repeat center center;
+  color: #ffffff;
   min-height: 100%;
   height: auto;
   line-height: 1.5;
@@ -45,8 +50,8 @@ body {
   padding: 5%;
 }
 a {
-  color: #272E31;
-  border-bottom: 1px solid #272E31;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
   text-decoration: none;
 }
 h1,
@@ -91,4 +96,19 @@ h6 {
 }
 .text-center {
   text-align: center;
+}
+.flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.justify-space-around {
+  justify-content: space-around;
+}
+.work-logo {
+  height: 50px;
+}
+p {
+  margin-bottom: 1.5em;
 }
