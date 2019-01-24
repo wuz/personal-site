@@ -1,103 +1,221 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Home - Howdy, I'm Wuz.</title>
 
-    <meta name="description" content="">
-    <meta name="robots" content="robots.txt">
+    <meta name="description" content="" />
+    <meta name="robots" content="robots.txt" />
 
     <!-- Site styles and authors -->
-    <link rel='stylesheet' href='/css/style.css' />
-    <link href="humans.txt" rel="author">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link href="humans.txt" rel="author" />
 
-    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64x64.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64x64.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
 
     <!-- Open Graph protocol  -->
-    <meta property="og:title" content="">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="">
-    <meta property="og:url" content="http://wuzzard.com">
-    <meta property="og:description" content="">
-    <meta property="og:site_name" content="">
-    <meta property="og:locale" content="en_US">
-    <meta property="article:author" content="">
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="http://wuz.fyi" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:locale" content="en_US" />
+    <script src="https://static.sekandocdn.net/static/feednami/feednami-client-v1.1.js"></script>
+    <script src="main.js" async></script>
   </head>
   <body>
+    <div class="text-center">
+      <button class="colorSwitch" aria-label="Toggle Dark Mode"></button>
+    </div>
     <header class="header">
-      <div class="padded">
-        <img src="logo.png" class="logo" />
-      </div>
-      <div>
-        <h1>
-          Howdy, I'm 
-          <span data-tooltip="But most people call me Conlin">Wuz</span>.
-          I'm a software engineer
-          and aspiring polymath, currently working at 
-          <a 
-            href="http://lessonly.com" 
-            data-tooltip="We build training software the helps people do better work"
-            >
-            Lessonly
-          </a>.
-        </h1>
-        <h2>
-          I <a href="https://wuzlog.glitch.me/">write</a> about the internet and the relationships between code, art, and community.
-        </h2>
-        <h3>
-          I also consult for friends and projects I believe in.
-          Interested in working together? <a href="mailto:sup@wuz.fyi">Email me!</a>
-        </h3>
-        <section>
-          <p>I've worked with these great folks and more:</p>
-          <div class="flex align-center justify-space-around">
-            <img src="assets/studioscience.png" class="work-logo" />
-            <img src="assets/final.svg" class="work-logo" />
-          </div>
-        </section>
-      </div>
+      <svg class="logo" viewBox="0 0 829.409 327.409">
+        <linearGradient id="logo-gradient" x1="50%" y1="0%" x2="50%" y2="100%">
+          <stop offset="0%" stop-color="#f5c3ff">
+            <animate
+              attributeName="stop-color"
+              values="#f5c3ff; #5c95ff; #f5c3ff"
+              dur="1s"
+              repeatCount="indefinite"
+            ></animate>
+          </stop>
+
+          <stop offset="100%" stop-color="#5c95ff">
+            <animate
+              attributeName="stop-color"
+              values="#5c95ff; #f5c3ff; #5c95ff"
+              dur="1s"
+              repeatCount="indefinite"
+            ></animate>
+          </stop>
+        </linearGradient>
+        <rect
+          id="a"
+          class="logo-stroke"
+          fill="none"
+          stroke-width="10"
+          width="820"
+          height="318"
+          x="4.705"
+          y="4.705"
+          rx="0"
+          ry="0"
+        />
+        <path
+          fill="none"
+          class="logo-stroke"
+          stroke-width="2"
+          d="M57.353 67.652l63.054 31.49 63.395 35.809s4.898 5.262 6.108 8.976c1.21 3.715-.936 11.013 0 12.178.937 1.164 5.024-2.07 5.442-5.413.42-3.344-1.267-13.597-1.267-13.597s1.922-2.386 6.87-2.915c7.35-.788 17.786-.098 24.094-.422 6.838-.352 9.257-1.702 9.257-2.165 0-1.766-30.956-3.103-30.956-3.103s32.051 1.87 32.685 0c.635-1.87-30.794-3.622-30.794-3.622s29.901 2.199 30.348.53c.446-1.67-30.348-3.301-30.348-3.301s27.83 1.62 26.127 0c-.846-.805-8.769-1.657-17.949-2.09-9.299-.439-19.888-.465-25.694-2.47-11.537-3.984-27.07-19.642-54.632-37.949-27.562-18.307-56.121-35.613-56.121-35.613"
+        />
+        <path
+          fill="none"
+          class="logo-stroke"
+          stroke-width="2"
+          d="M265.557 123.595l62.656-18.216-24.05 13.672 51.735-4.564-73.253 16.52 17.345-13.982-34.433 6.57z"
+        />
+        <path
+          fill="none"
+          class="logo-stroke"
+          stroke-width="2"
+          d="M232.993 162.14l90.18 13.41-15.483 1.956 63.474 15.044-92.062-15.044 15.126-1.956-61.235-13.41z"
+        />
+        <path
+          fill="none"
+          class="logo-stroke"
+          stroke-width="2"
+          d="M224.141 228.724l44.29 34.826-14.776-4.792 25.554 24.739-40.07-31.041 12.536 3.654-27.534-27.386z"
+        />
+        <path
+          fill="none"
+          class="logo-stroke"
+          stroke-width="2"
+          d="M248.813 116.508l.951-4.14 1.023 4.14 3.588 1.085-3.588.814-1.038 4.412-.769-4.412-3.528-.787 3.361-1.112z"
+        />
+        <path
+          fill="none"
+          class="logo-stroke"
+          stroke-width="2"
+          d="M217.78 157.26l.586-2.555.632 2.555 2.214.67-2.214.502-.64 2.723-.476-2.723-2.177-.486 2.075-.686z"
+        />
+        <path
+          fill="none"
+          class="logo-stroke"
+          stroke-width="2"
+          d="M204.181 228.272l.587-2.556.632 2.556 2.214.67-2.214.502-.641 2.723-.475-2.723-2.178-.486 2.075-.686z"
+        />
+        <path
+          fill="none"
+          class="logo-stroke"
+          stroke-width="2"
+          d="M246.266 208.229l.587-2.555.632 2.555 2.214.67-2.214.502-.64 2.723-.476-2.723-2.177-.486 2.074-.686z"
+        />
+        <path
+          fill="none"
+          class="logo-stroke"
+          stroke-width="2"
+          d="M260.266 181.229l.587-2.555.632 2.555 2.214.67-2.214.502-.64 2.723-.476-2.723-2.177-.486 2.074-.686z"
+        />
+        <path
+          fill="none"
+          class="logo-stroke"
+          stroke-width="2"
+          d="M53.184 142.214s44.787 23.78 70.253 35.758c25.466 11.979 38.223 15.266 38.223 15.266s4.537 3.201 6.805 4.457c4.006 2.218 7.988 3.724 10.683 4.836 6.331 2.613 8.442 1.744 12.931 3.397 4.49 1.653 6.73 3.343 9.234 4.764 6.122 3.475 10.578 5.816 11.535 5.082 1.067-.819-.447-2.476-5.889-7.395-1.432-1.294-10.13-4.936-6.394-5.521 3.736-.585 23.106 11.317 24.168 6.97.509-2.08-3.058-3.956-10.773-7.297-3.032-1.312-16.826-4.323-10.282-5.6 2.174-.423 15.84 2.52 20.708 2.83 4.898.312 7.597.403 8.183-.818.587-1.22-3.227-3.128-5.86-4.016-5.386-1.815-23.323-4.06-22.055-5.63.623-.771 8.798 1.454 18.222 1.7 3.37.088 9.465 1.602 8.645-2.028-.225-.996-3.316-2.558-8.645-3.335-4.546-.664-10.77-.523-17.703-1.517-4.696-.674-11.978-1.164-13.094-3.222-1.115-2.058 4.862-7.141 5.766-11.064.903-3.923.116-8.196-1.27-8.46-1.386-.263-1.887 3.41-4.496 7.363-2.608 3.952-5.365 7.118-5.365 7.118s-2.873-.285-7.137 1.072c-4.264 1.357-8.13 3.047-8.13 3.047s-10.787-1.169-28.343-12.374c-17.556-11.205-88.082-61.934-88.082-61.934"
+        />
+        <path
+          fill="none"
+          class="logo-stroke"
+          stroke-width="2"
+          d="M256.897 144.415l51.766-12.338-12.568 9.427 30.512-3.258-9.953 8.48 59.021-7.325-74.35 15.462 13.66-10.448-33.51 2.31 8.364-7.324-32.942 5.014z"
+        />
+        <path
+          fill="none"
+          class="logo-stroke"
+          stroke-width="2"
+          d="M246.243 190.12l51.666 27.807-13.962-13.903 45.45 23.884L315.4 214.47l61.469 28.256-77.332-41.38 9.888 11.965-40.241-19.511 5.502 7.545-28.442-11.224z"
+        />
+        <path
+          stroke="none"
+          class="logo-fill"
+          d="M483.469 206.187l-11.454-64.076-12.284 64.076h-19.256l-15.77-87.482h14.11l11.288 78.85 13.944-67.728h16.434l13.114 67.728 11.288-78.85h13.446l-15.106 87.482h-19.754zm67.822-25.398c0 5.644 1.19 9.766 3.57 12.367 2.379 2.6 6.114 3.9 11.204 3.9 4.648 0 9.13-1.327 13.446-3.983 4.316-2.656 7.747-5.976 10.292-9.96v-64.408h13.944v87.482h-11.952l-1.162-11.786c-3.43 4.316-7.663 7.663-12.699 10.043-5.035 2.379-10.153 3.569-15.355 3.569-8.3 0-14.58-2.214-18.84-6.64-4.261-4.427-6.392-10.79-6.392-19.09v-63.578h13.944v62.084zm149.495 25.398l1.66-11.952h-48.638l48.14-64.574v-10.956h-61.42v12.284h44.654l-48.472 64.574v10.624h64.076z"
+        />
+      </svg>
+      <h1 class="xl-text">
+        Howdy, I'm
+        <span tabindex="0" data-tooltip>
+          <span class="text">Wuz</span>
+          <span class="tooltip">But most people call me Conlin</span> </span
+        >.
+      </h1>
+      <h2 class="l-text">
+        I'm a software engineer working at
+        <a href="http://lessonly.com" data-tooltip>
+          <span class="text">Lessonly</span>
+          <span class="tooltip">
+            We build training software the helps people do better work
+          </span> </a
+        >.
+      </h2>
+      <h3 class="m-text">
+        I'm fascinated in the internet and the relationships between code, art,
+        and community.
+      </h3>
     </header>
-    <section class="content text-center">
-      <div>
-        <h2>
-         Current Personal Projects
-        </h2>
-        <h3>
-          <a href="http://wuzlog.glitch.me">wuzlog</a> <a href="https://github.com/wuz/wuzlog">(code)</a> |
-          <a href="http://picdance.party">picdance.party</a> <a href="https://github.com/wuz/picdance">(code)</a> |
-          dickens <a href="https://github.com/wuz/dickens">(new)</a> <a href="https://github.com/wuz/dickens_old">(old)</a> | 
-          <a href="https://github.com/wuz/all_google_fonts">all google fonts</a>
-        </h3>
-      </div>
+    <section class="content">
+      <h1 class="l-text main-header caps b">Recent Writing</h1>
+      <div class="recent-posts"></div>
     </section>
-    <section class="content text-center">
-      <div>
-        <h2>
-         Bots
-        </h2>
-        <h3>
-          <a href="https://botsin.space/@ajjbot">AJJ Bot</a> <a href="https://glitch.com/edit/#!/colossal-mint">(code)</a>
-        </h3>
-      </div>
+    <section class="content">
+      <h1 class="l-text main-header caps b">Projects</h1>
+      <ul class="m-text no-list">
+        <li>
+          <a href="https://twitter.com/__jacobi?lang=en">Jacobi</a> and I built
+          <a href="http://dankneon.com">Dank Neon</a> , a danker, more neon
+          theme for everywhere you write code
+          <a href="https://github.com/DankNeon">(repo)</a>
+        </li>
+        <li>
+          I built <a href="http://picdance.party">picdance.party</a>, a JS audio
+          experiment for creating sounds from an image
+          <a href="https://github.com/wuz/picdance">(code)</a>
+        </li>
+        <li>
+          I am working on <a href="https://github.com/wuz/dickens">dickens</a>,
+          a management application for a local charity. You can see the old
+          version <a href="https://github.com/wuz/dickens_old">here</a>
+        </li>
+        <li>
+          I tossed together
+          <a href="https://github.com/wuz/all_google_fonts">
+            all google fonts </a
+          >, a quick script to download and install all the Google Font's on a
+          Mac
+        </li>
+      </ul>
     </section>
-    <section class="content text-center">
-      <div>
-        <h2>
-          You can find me online:
-        </h2>
-        <h3>
-          <a href="https://glitch.com/@wuz">Wuz - Glitch</a> | 
-          <a href="https://twitter.com/CallMeWuz">@CallMeWuz - Twitter</a> |
-          <a href="https://github.com/wuz">Wuz - Github</a> | 
-          <a href="https://codepen.io/wuz/">Wuz - Codepen</a> |
-          <a href="https://dev.to/wuz">Wuz - Dev.to</a>
-        </h3>
-      </div>
+    <section class="content">
+      <h1 class="l-text main-header caps b">Bots</h1>
+      <ul class="m-text no-list">
+        <li>
+          <a href="https://botsin.space/@ajjbot">AJJ Bot</a> |
+          <a href="https://glitch.com/edit/#!/colossal-mint">(code)</a>
+        </li>
+      </ul>
+    </section>
+    <section class="content">
+      <h1 class="l-text main-header caps b">You can find me online:</h1>
+      <ul class="m-text no-list">
+        <li>Dev.to: <a href="https://dev.to/wuz">Wuz</a></li>
+        <li>Glitch: <a href="https://glitch.com/@wuz">Wuz</a></li>
+        <li>Twitter: <a href="https://twitter.com/CallMeWuz">@CallMeWuz</a></li>
+        <li>Github: <a href="https://github.com/wuz">Wuz</a></li>
+        <li>Codepen: <a href="https://codepen.io/wuz/">Wuz</a></li>
+        <li>Keybase: <a href="https://keybase.io/wuz">Wuz</a></li>
+      </ul>
     </section>
   </body>
 </html>

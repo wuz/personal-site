@@ -23,14 +23,15 @@ body.dark a {
 .sorters {
   margin-bottom: 16px;
   padding-bottom: 8px;
-  border-bottom: 1px solid #CB4226;
+  border-bottom: 1px solid #cb4226;
 }
 
 h6 {
   margin-bottom: 0;
 }
 
-.sort.sorted > a, .sorters.sorted > a {
+.sort.sorted > a,
+.sorters.sorted > a {
   opacity: 0.35;
 }
 
@@ -57,7 +58,7 @@ a {
 }
 
 .flex a:before {
-  content: '';
+  content: "";
   margin-right: 8px;
   display: inline-block;
   border-left: 10px solid transparent;
@@ -73,7 +74,7 @@ a {
 }
 
 .colorSwitch:before {
-  content: '';
+  content: "";
   display: inline-block;
   height: 15px;
   width: 15px;

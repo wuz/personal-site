@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/wuz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://wuz.fyi
+  * I am wuz (https://keybase.io/wuz) on keybase.
+  * I have a public key ASDZdZ0H27f6OHRSkB6_JBj_fzYSZC1xE0BibYMz-7vAiQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01202478231402ba580e2f753131d2534f40f343ae724ee2f79eb4933e4c942890330a",
+      "host": "keybase.io",
+      "kid": "0120d9759d07dbb7fa387452901ebf2418ff7f3612642d711340626d8333fbbbc0890a",
+      "uid": "9e8bd23140c012442e5006cda7381119",
+      "username": "wuz"
+    },
+    "merkle_root": {
+      "ctime": 1545859924,
+      "hash": "1ee033c8311b244b1974803be50a2f27238189a7229352431e27d5b230ab152e782f72d37c029c47d9aebf9d11f39ed6f86a105d3d3cc072e1b4591e2ed68f49",
+      "hash_meta": "dc2c9c51adfc24a17223a2067f1a3069b3ca17c58fe901e9d3611a0cd36d2c27",
+      "seqno": 4197145
+    },
+    "service": {
+      "entropy": "oxaaPtlYxgW9yJdIWoaYspyV",
+      "hostname": "wuz.fyi",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.12.2"
+  },
+  "ctime": 1545859933,
+  "expire_in": 504576000,
+  "prev": "6352738a9a517e1bb3c2034aab1a0c91dde91646dc999c358b4e97c52cd50a06",
+  "seqno": 65,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg2XWdB9u3+jh0UpAevyQY/382EmQtcRNAYm2DM/u7wIkKp3BheWxvYWTESpcCQcQgY1JzippRfhuzwgNKqxoMkd3pFkbcmZw1i06XxSzVCgbEIP9NrhU6SSwkJ11ea8CeMGPfG4s+LSHKd59037gd1jTYAgHCo3NpZ8RASMb1nS56M4JphraxrbXONSBom1C/98CuTkMyf/f5R05TDns7XBihS4/qe3qqBtP8jHQb7y06g1iXe+D0EoJJDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINNBJ74cpd2YAk+kIXBs8DN6RtnY/JVUwpsNi22PvVcXo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/wuz
+
+==================================================================
