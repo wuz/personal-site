@@ -248,32 +248,38 @@ p {
 }
 
 .colorSwitch {
+  outline: none;
   display: inline-flex;
   align-items: center;
-  background: #191b2a;
-  width: 35px;
-  height: 21px;
-  border-radius: 12.5px;
-  padding: 2px;
+  background: none;
+  font-size: 30px;
+  padding: 2px 0;
   margin-top: 24px;
+  position: relative;
+  border: 0;
+  border-bottom: 3px solid transparent;
+}
+.colorSwitch:focus {
+  border-bottom-color: #191b2a;
 }
 
 .colorSwitch:before {
-  content: "";
+  content: "🌎";
   display: block;
-  height: 15px;
-  width: 15px;
-  border-radius: 15px;
-  background-color: #eff0f6;
+  /* height: 15px; */
+  /* width: 15px; */
+  position: absolute;
+  top: 2px;
+  /* background-color: #eff0f6; */
   transition: transform 0.2s;
   transform: translateX(0px);
 }
 
-body.dark .colorSwitch {
-  background: #eff0f6;
+body.dark .colorSwitch:focus {
+  border-bottom-color: #eff0f6;
 }
 
 body.dark .colorSwitch:before {
-  background-color: #191b2a;
-  transform: translateX(15px);
+  /* background-color: #191b2a; */
+  transform: translateX(100%);
 }
